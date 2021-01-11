@@ -1,0 +1,36 @@
+{
+    "name": "impulsolike/oops",
+    "type": "library",
+    "description": "Librería para el manejo de errores en PHP",
+    "keywords": [
+        "php",
+        "error",
+        "exception"
+    ],
+    "homepage": "https://github.com/impulsolike/php-oops",
+    "authors": [
+        {
+            "name": "GizzyZaxx",
+            "email": "gizzy@impulsolike.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImpulsoLike\\Oops\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ImpulsoLike\\Oops\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
